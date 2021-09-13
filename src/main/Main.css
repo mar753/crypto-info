@@ -13,3 +13,8 @@
   margin-right: auto;
   max-width: 20%;
 }
+
+.main-component .coin-details {
+  margin-top: 20px;
+  font-weight: bold;
+}
