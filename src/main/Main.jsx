@@ -16,9 +16,17 @@ function Main() {
       <header>
         <p>Select crypto coin to get more info:</p>
       </header>
-      <section >
-        <select name="crypto-select" id="select-main" data-testid="select-main" defaultValue="">
-          <option value="" disabled>Select...</option>
+      <section>
+        <select
+          className="form-select"
+          name="crypto-select"
+          id="select-main"
+          data-testid="select-main"
+          defaultValue=""
+        >
+          <option value="" disabled>
+            Select...
+          </option>
           {coinList.map((element) => (
             <option key={element.value + element.key} value={element.value}>
               {element.key}
